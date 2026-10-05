@@ -1,7 +1,7 @@
 .event-information {
     position: relative;
-    width: 350px;
-    height: 350px;
+    width: 600px;
+    height: 800px;
     padding: 0px;
     margin: 20px;
     border: 2px solid white;
@@ -24,11 +24,15 @@
     width: 0;
     height: 100%;
     transition: 0.5s ease;
+    
 }
 
 .event-information:hover .event-information-overlay {
     width: 100%;
     left: 0;
+    box-sizing: border-box;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
 }
 
 .text {

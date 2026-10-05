@@ -1,5 +1,5 @@
 .app {
-    background: url('./assets/unitygrid.jpg');
+    /* background: url('./assets/chicagoMap.jpg'); */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -30,4 +30,7 @@ header {
 .header-buttons button {
     margin-right: 20px;
     margin-left: 20px;
+}
+header h1 {
+    font-family: 'Courier New', Courier, monospace;
 }

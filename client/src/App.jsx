@@ -2,7 +2,6 @@ import React from 'react'
 import { useRoutes, Link } from 'react-router-dom'
 import Locations from './pages/Locations'
 import LocationEvents from './pages/LocationEvents'
-import Events from './pages/Events'
 import './App.css'
 
 const App = () => {
@@ -12,36 +11,36 @@ const App = () => {
       element: <Locations />
     },
     {
-      path: '/echolounge',
+      path: '/navy-pier',
       element: <LocationEvents index={1} />
     },
     {
-      path: '/houseofblues',
+      path: '/field-museum',
       element: <LocationEvents index={2} />
     },
     {
-      path: '/pavilion',
+      path: '/shedd-aquarium',
       element: <LocationEvents index={3} />
     },
     {
-      path: '/americanairlines',
+      path: '/field-museum',
       element: <LocationEvents index={4} />
     },
-    {
-      path: '/events',
-      element: <Events />
-    }
+    // {
+    //   path: '/events',
+    //   element: <Events />
+    // }
   ])
 
   return (
     <div className='app'>
 
       <header className='main-header'>
-        <h1>UnityGrid Plaza</h1>
-
+        <h1>Chicago Plaza</h1>
+        
         <div className='header-buttons'>
           <Link to='/' role='button'>Home</Link>
-          <Link to='/events' role='button'>Events</Link>
+          {/* <Link to='/events' role='button'>Events</Link> */}
         </div>
       </header>
 

@@ -2,19 +2,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700;800;900&display=swap');
 
 #root {
-    background: url('./assets/unitygrid.jpg');
+    background: url('./assets/chicagoMap.jpg');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-position: center center;
     background-attachment: fixed;
     background-color: var(--secondary-color);
     font-family: Nunito Sans, Verdana, sans-serif;
     height: 100vh;
-    --main-color: rgb(217, 29, 242);
-    --secondary-color: rgb(3, 1, 64);
+    --main-color: rgb(31, 40, 107);
+    --secondary-color: rgb(249, 240, 227);
     --primary: var(--main-color);
-    --primary-hover: rgb(111, 28, 166);
-    --primary-focus: rgb(217, 29, 242);
+    --primary-hover: rgb(7, 15, 113);
+    --primary-focus: rgb(33, 33, 186);
     --secondary: var(--secondary-color);
     --secondary-hover: rgb(4, 66, 191);
     --secondary-focus: rgb(111, 28, 166);
@@ -36,10 +36,10 @@
 }
 
 #root h1 {
-    font-family: Rock Salt, cursive;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 3em;
     font-weight: bold;
-    text-shadow: 3px 3px 4px black;
+    text-shadow: 4px 4px 4px rgb(31, 40, 107);
 }
 
 #root h2 {
